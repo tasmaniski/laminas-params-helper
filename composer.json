@@ -1,0 +1,27 @@
+{
+  "name":              "tasmaniski/zf2-params-helper",
+  "description":       "View Helper for reading data from $_GET, $_POST and Routes in view",
+  "type":              "library",
+  "keywords":          ["zf2", "view", "helper", "params"],
+  "homepage":          "https://github.com/tasmaniski",
+  "authors": [
+    {
+      "name":     "Aleksandar Varnicic",
+      "email":    "tasmaniski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zendframework": "2.5.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ParamsHelper": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  }
+}
+
+
