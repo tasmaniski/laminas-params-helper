@@ -1,4 +1,4 @@
-#Params Helper
+#ZF2 Params Helper
 
 View Helper will read params from $_GET, $_POST and Routes in ZF2
 
