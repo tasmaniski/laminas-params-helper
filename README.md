@@ -1,6 +1,6 @@
 #ParamsHelper
 
-View Helper for reading params from $_GET, $_POST and Routes in ZF2
+View Helper will read params from $_GET, $_POST and Routes in ZF2
 
 ##Install
 
@@ -44,7 +44,6 @@ $this->params()->fromQuery();
 Or you can get one variable by name. Second param in method is default value if helper can not find the requested value.
 
 ```php
-
 //will read var with name 'id' and if id is null it will return 1 as default
 $this->params()->fromRoute('id', 1);
 
