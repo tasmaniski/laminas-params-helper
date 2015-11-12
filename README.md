@@ -41,7 +41,7 @@ $this->params()->fromRoute();
 $this->params()->fromQuery();
 ```
 
-Or you can get one variable by name. Second param is optional and it's default value if helper can not find the requested value.
+Or you can get one variable by name. Second param is optional and it's default value if helper can not find the key.
 
 ```php
 //will read var with name 'id' and if id is null it will return 1 as default
