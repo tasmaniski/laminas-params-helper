@@ -1,6 +1,28 @@
-#Module ParamsHelper
+#ParamsHelper
 
-Module name is 'ParamsHelper' so we should add it in *config/application.config.php* file.
+ZF2 params View Helper
+
+##Install
+
+Add in you **composer.json** file:
+
+```json
+{
+    "require": {
+        "tasmaniski/zf2-params-helper": "1.0.*"
+    }
+}
+```
+After running: *sudo composer update* 
+
+You need to register new module. Add in file **config/application.config.php**: 
+
+```
+'modules' => array(
+    '...',
+    'ParamsHelper'
+),
+```
 
 ##Use
 
