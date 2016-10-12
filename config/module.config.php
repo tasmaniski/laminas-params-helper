@@ -2,7 +2,7 @@
 return [
     'view_helpers' => [
         'factories' => [
-        	'params' => '\ParamsHelper\Factory\View\Helper\ParamsHelperFactory',
+            'params' => ParamsHelper\Factory\View\Helper\ParamsHelperFactory::class,
         ]
     ],
 ];

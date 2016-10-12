@@ -2,20 +2,15 @@
 
 namespace ParamsHelper\Factory\View\Helper;
 
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
-use Zend\Mvc\Router\Http\RouteMatch;
-use \ParamsHelper\View\Helper\ParamsHelper;
+use Interop\Container\ContainerInterface;
+use ParamsHelper\View\Helper\ParamsHelper;
 
-class ParamsHelperFactory implements FactoryInterface
+class ParamsHelperFactory
 {
-    /**
-     * @param ServiceLocatorInterface $serviceLocator
-     * @return ParamsHelper
-     */
-    public function createService(ServiceLocatorInterface $serviceLocator)
+
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
-        $app = $serviceLocator->getServiceLocator()->get('Application');
+        $app = $container->get('Application');
 
         return new ParamsHelper($app->getRequest(), $app->getMvcEvent());
     }
