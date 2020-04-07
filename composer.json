@@ -1,9 +1,10 @@
 {
-    "name": "tasmaniski/zend-params-helper",
+    "name": "tasmaniski/laminas-params-helper",
     "description": "View Helper for reading data from $_GET, $_POST and Routes in view",
     "type": "library",
     "keywords": [
         "zend framework",
+        "laminas framework",
         "view",
         "helper",
         "params"
