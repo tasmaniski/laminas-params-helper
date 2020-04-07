@@ -2,9 +2,9 @@
 
 namespace ParamsHelper\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
-use Zend\Mvc\MvcEvent;
-use Zend\Stdlib\RequestInterface;
+use Laminas\View\Helper\AbstractHelper;
+use Laminas\Mvc\MvcEvent;
+use Laminas\Stdlib\RequestInterface;
 
 class ParamsHelper extends AbstractHelper
 {
