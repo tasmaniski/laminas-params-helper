@@ -1,9 +1,6 @@
-#Zend Framework Params Helper
+#Laminas MVC Params Helper
 
-View Helper will read params from $_GET, $_POST and Routes in ZF
-
-New version is here! Current version support Zend Framework 3
-
+View Helper will read params from $_GET, $_POST and Routes in Laminas MVC project.
 
 ##Install
 
@@ -12,11 +9,11 @@ Add in you **composer.json** file:
 ```json
 {
     "require": {
-        "tasmaniski/zend-params-helper": "^2.0"
+        "tasmaniski/laminas-params-helper": "^3.0"
     }
 }
 ```
-After running: *sudo composer update* 
+After running: *composer update* 
 
 You need to register new module. Add in file **config/application.config.php**: 
 
@@ -26,8 +23,6 @@ You need to register new module. Add in file **config/application.config.php**:
     'ParamsHelper'
 ),
 ```
-
-Note: if you want to use it in ZF2 app, add in composer.json version ^1.0
 
 ##Use
 
