@@ -1,8 +1,8 @@
-#Laminas MVC Params Helper
+# Laminas MVC Params Helper
 
 View Helper will read params from $_GET, $_POST and Routes in Laminas MVC project.
 
-##Install
+## Install
 
 Add in you **composer.json** file:
 
@@ -24,7 +24,7 @@ You need to register new module. Add in file **config/application.config.php**:
 ),
 ```
 
-##Use
+## Use
 
 We can use it in any view file (including layout) as key name **params()**.
 View Helper **params()** served to read variables from $_POST, $_GET or from Routes.
