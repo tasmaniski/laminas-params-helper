@@ -1,3 +1,10 @@
+```json
+IMPORtANT NOTE: 
+If you find this package useful, 
+please click on a star button and let me know, 
+so I will gladly continue with the updates.
+```
+
 # Laminas MVC Params Helper
 
 View Helper will read params from $_GET, $_POST and Routes in Laminas MVC project.
