@@ -1,3 +1,8 @@
+![Licence](https://img.shields.io/github/license/tasmaniski/laminas-params-helper) 
+![PHP version](https://img.shields.io/packagist/php-v/tasmaniski/laminas-params-helper)
+![StarsCount](https://img.shields.io/github/stars/tasmaniski/laminas-params-helper)
+![Downloads](https://img.shields.io/packagist/dt/tasmaniski/laminas-params-helper)
+
 ```json
 IMPORTANT NOTE: 
 If you find this package useful, 
