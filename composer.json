@@ -9,6 +9,7 @@
         "helper",
         "params"
     ],
+    "license": "GPL-2.0",
     "homepage": "https://github.com/tasmaniski",
     "authors": [
         {
